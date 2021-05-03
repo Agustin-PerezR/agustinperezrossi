@@ -29,7 +29,7 @@ public class SistemaDeRegistro {
     }
 
     public void RegistrarProducto() {
-        Producto2 p= new Producto2();
+        Producto2 p = new Producto2();
         float P = p.getPrecio();
         String n = p.getNombre();
         Scanner ingresar = new Scanner(System.in);
@@ -43,15 +43,16 @@ public class SistemaDeRegistro {
     }
 
     public void verImporteParcial() {
-        Producto2 p= new Producto2();
-        float ImpParcial= 0;
-        ImpParcial+=  p.getPrecio();
+        Producto2 p = new Producto2();
+        float ImpParcial = 0;
+        ImpParcial += p.getPrecio();
         System.out.println("Importe Parcial: " + ImpParcial);
 
     }
 
     public void verImporteTotal() {
-        System.out.println("hola");
+
+
     }
 
     public void agregarProducto(Producto2 p) {
