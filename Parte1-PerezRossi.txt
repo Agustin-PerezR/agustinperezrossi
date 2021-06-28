@@ -1,0 +1,27 @@
+1) Una clase es lo que se utiliza para crear objetos. Esta pude agrupar 
+tanto datos como metodos los cuales utiliza el objeto
+2)Un objeto en java representa lo mismo que un objeto real. 
+Este puede ser manipulado y creado
+3)Un constructor es lo que se usa para asignarle valores a los atributos de un objeto
+4)a- Public Persona(){
+     this.nombre=nombre
+}
+  b- Public Persona(String nombre){
+     this.nombre=nombre
+}
+5)Ilimitados
+6)Son valores que se le asigmam a todos los objetos de esa clase. Representan 
+las caracteristicas de dichos objetos
+7)Los metodos son las funciones que manipulan a un objeto. Representan las formas de utilizar dicho objeto
+8) Si, puede tener mas de uno
+9)El this hace referencia a un atributo de un objeto y este lo diferencia de una variable que se le pasa a un constructor por ejemplo
+10)Deben tener la misma direccion
+11)Para inicializar una clase o un metodo
+12)Imprime False
+13)Para agrupar distintos archivos en un mismo paquete
+14) Para importar librerias u otros archivos
+15)Para ingresar datos mediante un input 
+16)Un ArrayLIst es similar a un vector en c++. Puede almacenar elementos del mismo tipo que se le asigana y los ordena sgun un indice (desde 0)
+17)Un HashSet tambien es una lista con la diferencia que no tiene orden por lo cual no tiene indice y ademas no permite elementos
+iguales
+18)Es otro tipo de Lista la cual se forma mediante una clave y un valor para esa clave. La clave y el valor pueden ser de distinto tipo, String e int por ej
