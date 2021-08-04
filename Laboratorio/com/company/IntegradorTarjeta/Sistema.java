@@ -76,6 +76,20 @@ public class Sistema {
         System.out.println(precio);
         return ultimoMontoPasajero;
     }
+     public float ultimoMontoAbonadoPorPasajero(float numeroId){
+        float monto = 0.f;
+        HashMap<Pasajero, Float> pasajerosMonto = pasajerosConUltimoMontoAbonado();
+
+        for (Map.Entry<Pasajero, Float> aux : pasajerosMonto.entrySet()){
+            Pasajero pasajero = aux.getKey();
+            if (pasajero.getTarjeta().getNumeronld() == numeroId){
+                monto = aux.getValue();
+                break;
+            }
+        }
+
+        return monto;
+    }
     public  boolean seSuperaElSaldoNegativo(Pasajero pasajero){
         boolean seSupera=true;
         if (pasajero.getTarjeta().getSaldo()< pasajero.getTarjeta().getSaldoNegativoMaximo()){
