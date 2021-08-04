@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let A = [2, 2, 2, 4, 5];
+    var N = 2;
+    var veces = 0;
+
+    function cantApariciones(A, N) {
+        for (let i = 0; i < A.length; i++) {
+            if (A[i] == N) {
+                veces = veces + 1;
+            }
+
+        }
+        return veces;
+    }
+
+    let valido = false;
+    const mail = 'a@gmail.com';
+
+    function posibleMailValido(mail, valido) {
+        while (valido == false) {
+            for (let g = 0; g < mail.length; g++) {
+                if (mail[0] = "@" || mail[mail.length - 1]) {
+                    console.log("Mail invalid");
+                }
+                else {
+                    console.log("el mail es valid");
+                }
+
+            }
+            valido =true
+        }
+        return true;
+    }
+
+    cantApariciones(A, N);
+    console.log(veces);
+    posibleMailValido(mail, valido);
+</script>
+</body>
+</html>
