@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <
+    <title>Marzo 26</title>
+    
+</head>
+
+<body>
+
+    <p> ingrese dos valores nombre </p>
+    <input type="number" id="valoruno">
+    <input type="number" id="valordos">
+    <div>
+        <button onclick="suma()"> + </button>
+        <button onclick="resta()"> - </button>
+        <button onclick="multiplicacion()"> * </button>
+        <button onclick="division()"> / </button>
+    </div>
+
+
+
+
+    <h1 id="resultadoCuenta"></h1>
+    <script>
+        function suma() {
+            var valorUno = document.getElementById("valoruno").value;
+            var valorDos = document.getElementById("valordos").value;
+            var resultado = parseInt(valorUno) + parseInt(valorDos);
+            document.getElementById("resultadoCuenta").innerHTML = resultado;
+            document.getElementById("resultadoCuenta").style.color = "red";
+            document.body.style.backgroundImage= "calcu.png"; 
+
+        }
+        function resta() {
+            var valorUno = document.getElementById("valoruno").value;
+            var valorDos = document.getElementById("valordos").value;
+            var resultado = parseInt(valorUno) - parseInt(valorDos);
+            document.getElementById("resultadoCuenta").innerHTML = resultado;
+            document.getElementById("resultadoCuenta").style.color = "red";
+        }
+        function multiplicacion() {
+            var valorUno = document.getElementById("valoruno").value;
+            var valorDos = document.getElementById("valordos").value;
+            var resultado = parseInt(valorUno) * parseInt(valorDos);
+            document.getElementById("resultadoCuenta").innerHTML = resultado;
+            document.getElementById("resultadoCuenta").style.color = "red";
+        }
+        function division() {
+            var valorUno = document.getElementById("valoruno").value;
+            var valorDos = document.getElementById("valordos").value;
+            var resultado = parseInt(valorUno) / parseInt(valorDos);
+            document.getElementById("resultadoCuenta").innerHTML = resultado;
+            document.getElementById("resultadoCuenta").style.color = "red";
+        }
+    </script>
+</body>
+
+</html>
