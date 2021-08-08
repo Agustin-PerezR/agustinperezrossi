@@ -1,0 +1,34 @@
+head{
+    margin: auto;
+    background-color: dimgray;
+}
+
+body{
+    margin: 20px;
+    background-color: lightgrey;
+    margin-left: 26px;
+}
+#agregar{
+    margin-left: 10cm;
+    background-color: dodgerblue;
+    color: lightcoral;
+    text-align: center;
+    font-size: large;
+    width: auto;
+    height: auto;
+
+
+}
+tr{
+    margin-left:1cm ;
+}
+#tr1{
+    background-color: lightslategray;
+    
+}
+#tr2{
+   margin-top: 0.67cm;
+}
+#td1{
+ padding-left: 30px;
+}
