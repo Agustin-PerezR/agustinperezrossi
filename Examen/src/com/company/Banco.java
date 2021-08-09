@@ -60,9 +60,9 @@ public class Banco {
         System.out.println(visitas);
         return visitas;
     }
-    public void imprimirVisitas(HashMap<Integer, Integer> visitas){
+   public void imprimirVisitas(HashMap<Integer, Integer> visitas){
         for (int i = 0; i <visitas.size() ; i++) {
-            System.out.println("
+            System.out.println("Clave:"+ visitas.get(i)+ "Values: "+ visitas.values() );
         }
     }
 
