@@ -1,0 +1,36 @@
+#cuadrado {
+	width: 2cm;
+	height: 2cm;
+	background-color: aquamarine;
+	margin-left: 1cm;
+}
+
+#fijo {
+	width: 2cm;
+	height: 2cm;
+	background-color: aquamarine;
+	margin-left: 10cm;
+	 margin-top: -2cm;
+
+
+}
+
+#izquierda {
+    margin-left: 8cm;
+    margin-top: -0.5cm;
+    width: 1.5cm;
+    height: 2.3cm;
+    border-color: aquamarine;
+}
+#derecha{
+	margin-left: 12.5cm;
+    margin-top: 2cm;
+}
+
+body {
+	background-color: linen;
+}
+
+#botones {
+	margin-top: 60%;
+}

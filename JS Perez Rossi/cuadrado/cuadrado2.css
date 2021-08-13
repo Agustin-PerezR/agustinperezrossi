@@ -1,0 +1,29 @@
+#cuadrado{
+    width: 2cm;
+    height: 2cm;
+    background-color: rgb(82, 138, 17);
+}
+#cuadrado2{
+    margin-left: 10cm;
+    width: 2cm;
+    height: 2cm;
+    background-color: rgb(39, 29, 184);
+}
+body{
+    background-color: rgb(168, 210, 216);
+}
+#botones{
+    padding-top: 3cm;
+    margin-left: 5cm;
+}
+#botonDerecha1{
+    height: 0.6cm;
+    margin-right: 3cm;
+    margin-left: 9cm;
+    border-style: solid;
+}
+#botonizquierda1{
+    height: 0.6cm;
+    border-style: solid;
+  
+}

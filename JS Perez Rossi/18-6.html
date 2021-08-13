@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang=es>
+    <head>
+        <meta charset="UTF-8">
+        <script src="jquery-3.6.0.js"></script>
+        <title>documento</title>
+    </head>
+    <body>
+        <h1 class ="tituloH1">Hola </h1>
+        <h1 class ="tituloH1">Mundo</h1>
+        <h1 class ="tituloH1">!</h1>
+        <button onclick = "cambiarColores()">cambiar colores</button>
+        <button onclick = "describirColores()">describir colores</button>
+        <script>
+            function cambiarColores(){
+                let elemento = $(".tituloH1");
+                console.log(elemento);
+                $(".tituloH1").css("color","none");
+                $("body").css("background-color","none");
+            }
+
+            function describirColores(){
+                let colorTitulosH1 = $(".tituloH1").css("background-color");
+                let colorFondo = $("body").css("background-color");
+                let mensaje = "El color de los titulos H1 es " + colorTitulosH1 + "\n";
+                mensaje += "El color del fondo es " + colorFondo;
+
+                alert(mensaje);
+            }
+        </script>
+    </body>
+</html>
