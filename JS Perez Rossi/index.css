@@ -1,0 +1,28 @@
+#encabezado{
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, rgb(136, 136, 245), rgb(248, 135, 135));
+    display: block;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    margin-left: 14px;
+    padding-top: 8px;
+     transition:  1s;
+}
+    h1:hover{
+        color:rgb(252, 110, 110) ;      
+    }
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15.5px;
+    margin-left: 14px;
+}
+#trabajos{
+    background-image: linear-gradient(90deg, rgb(136, 136, 245), rgb(248, 135, 135));
+    height: 30cm;
+    border-radius: 10px;
+}
+
+
