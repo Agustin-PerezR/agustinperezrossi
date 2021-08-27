@@ -21,8 +21,33 @@ h2{
 }
 #trabajos{
     background-image: linear-gradient(90deg, rgb(136, 136, 245), rgb(248, 135, 135));
-    height: 30cm;
+    height: max-content;
     border-radius: 10px;
+    transition: all 2s;
 }
+#ej{
+    margin-left: 6cm;
+}
+#imagen{
+    width: 37%;
+    /* height: 21%; */
+    margin-top: 20px;
+    margin-left: 65px;
+    border-radius: 18px;
+    transition: all 1s;
+
+}
+#imagen:hover{
+    margin-bottom: 20px;
+    transform: scale(1.2);
+   
+    
+
+    
+}
+ #ej:hover #encabezado{
+    background-image:linear-gradient(90deg, rgb(0, 36, 212), rgb(218, 135, 125));
+    transition: all 2s;
+ }
 
 
