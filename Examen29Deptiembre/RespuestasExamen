@@ -1,0 +1,9 @@
+a. Si cada cine tuviera dos tipos de salas: salas2D y sala3D, ¿Crearía nuevas clases?¿Reutilizaría alguna clase existente?¿Porqué?
+	Crearia dos clases que se extiendan de la clase sala. Porque las dos pertenecen a las clase Sala pero tienen algunos atributos que las 		diferencian entre si
+
+b. Si se necesitara guardar información sobre la cantidad de personas mayores de edad y menores de edad que concurren al cine, ¿Qué modificaciones realizaría?¿Porqué?
+
+Le pondria un atributo de edad a la clase Visitante y crearia un metodo que verifique si es mayor o menor y otro que lo gurde
+
+c. Si se necesitara saber cuál fué el visitante que ingresó último al cine, ¿Qué modificaciones realizaría?¿Porqué? 
+Simplemente agrraria el ultimo elemento del array donde estan todos los Visitantes 
