@@ -1,0 +1,23 @@
+	
+Clase Abstracta:
+	Veterinaria:
+	   mascotas[]
+	   public String mascotaConMasAsistencia()->Saca el total de visitas en el año, de cada tipo de mascota, al tipo que mas asistio se lo guarda en una variable la cual es retornada
+	Mascota:
+	   -Nombre
+	   -FechaNacimiento
+	   -Dueño
+	   -fechasVeterinario[]
+	   Metodos:
+	   -public boolean visistasObligatorias()-> recorre la lista de fechas y si cumple con las visitas minimas retorna true, de lo contrario retorna False  
+	   -public boolean calcularAsistencia()->compara el total de turnos con el veterinario y la cantidad de asistencias a esos turnos. Si son iguales retorna True, si las asistencias son menores retorna false
+	   
+Clases no abstractas:
+	 Gato- Extends Mascota:
+	   -Raza
+	 Perro- Extends Mascota:
+	   -Raza
+	   public hashSet<Perro> razasConFaltas -> Recorre la lista de mascotas y se fija las razas de los perros y sus asistencias. Si la misma no es perfecta se los guarda en un HashSet
+	   
+	   Tortuga- Extends Mascota:
+	   	
