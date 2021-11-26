@@ -5,11 +5,12 @@ import java.util.HashMap;
 public  class ProductoDeRefrigeracion extends ProductoElectrico{
     private float litrosDeCapacidad;
 
+    public ProductoDeRefrigeracion(String nombre, String origen, int codigo, float cost, int cantDiasDeGarantia, float litrosDeCapacidad) {
+        super(nombre, origen, codigo, cost, cantDiasDeGarantia);
+        this.litrosDeCapacidad = litrosDeCapacidad;
+    }
+
     public HashMap<Integer,Float> productosRefrigeranteConCapacidad(){
-        /** que retorna un map cuyas claves son los códigos de los productos
-         refrigerantes que tienen una capacidad mayor o igual a 300 lts y son de
-         origen argentino.
-         **/
         HashMap<Integer,Float> productos= new HashMap<>();
         Integer codigo;
         if(getOrigen()=="Argentina" && litrosDeCapacidad >= 300 ){

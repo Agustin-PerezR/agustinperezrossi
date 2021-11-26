@@ -1,0 +1,2 @@
+Un  metodo en la superclase ProductoElectrico que tome todos los datos del producto y que se 
+herede a ProductoDeRefrigercion y ProductoDeCalefaccion tomando en cada una de estas los datos correspondientes a cada clase

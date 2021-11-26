@@ -4,6 +4,10 @@ public abstract class ProductoAlimenticio extends ProductoDeSuper {
     private int  cantDiasParaVencerse;
     private static int DESCUENTO = 30;
 
+    public ProductoAlimenticio(String nombre, String origen, int codigo, float cost) {
+        super(nombre, origen, codigo, cost);
+    }
+
     @Override
     public float calcularGananciaObtenida() {
         if (cantDiasParaVencerse <= 90){
@@ -15,7 +19,7 @@ public abstract class ProductoAlimenticio extends ProductoDeSuper {
     }
     @Override
     public float calcularPrecioFinal(){
-        float costo = getCosto();
+        float costo = getCost();
         float precioFinal= costo + calcularGananciaObtenida() -(costo*(DESCUENTO/100));
         return precioFinal;
     }

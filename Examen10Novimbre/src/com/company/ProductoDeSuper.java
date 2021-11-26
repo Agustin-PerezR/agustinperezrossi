@@ -4,7 +4,14 @@ public abstract class ProductoDeSuper implements Producto {
     private String nombre;
     private String origen;
     private int codigo;
-    private float costo;
+    private float cost;
+
+    public ProductoDeSuper(String nombre, String origen, int codigo, float cost) {
+        this.nombre = nombre;
+        this.origen = origen;
+        this.codigo = codigo;
+        this.cost = cost;
+    }
 
     @Override
     public float calcularGananciaObtenida() {
@@ -40,11 +47,11 @@ public abstract class ProductoDeSuper implements Producto {
         this.codigo = codigo;
     }
 
-    public float getCosto() {
-        return costo;
+    public float getCost() {
+        return cost;
     }
 
-    public void setCosto(float costo) {
-        this.costo = costo;
+    public void setCost(float cost) {
+        this.cost = cost;
     }
 }

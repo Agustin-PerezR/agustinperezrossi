@@ -4,6 +4,11 @@ import java.util.HashSet;
 public  class ProductoNoPerecedero extends ProductoAlimenticio{
 private int mgDeSodio;
 
+    public ProductoNoPerecedero(String nombre, String origen, int codigo, float cost, int mgDeSodio, float deSodio) {
+        super(nombre, origen, codigo, cost);
+        this.mgDeSodio = mgDeSodio;
+    }
+
     @Override
     public String tipoDeProducto() {
         return "ProductoNoPerecedero";
@@ -14,7 +19,9 @@ private int mgDeSodio;
             ProductosAptos.add(getNombre());
         }
         return ProductosAptos;
+
     }
+
 
     public int getMgDeSodio() {
         return mgDeSodio;

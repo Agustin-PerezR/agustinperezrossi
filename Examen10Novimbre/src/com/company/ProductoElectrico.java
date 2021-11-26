@@ -4,7 +4,10 @@ public abstract class ProductoElectrico extends ProductoDeSuper{
     private int cantDiasDeGarantia;
     private static int RECARGO_POR_ENVIO = 50;
 
-
+    public ProductoElectrico(String nombre, String origen, int codigo, float cost, int cantDiasDeGarantia) {
+        super(nombre, origen, codigo, cost);
+        this.cantDiasDeGarantia = cantDiasDeGarantia;
+    }
 
     @Override
     public float calcularGananciaObtenida(){
@@ -19,7 +22,7 @@ public abstract class ProductoElectrico extends ProductoDeSuper{
     }
     @Override
     public float calcularPrecioFinal(){
-        float costo = getCosto();
+        float costo = getCost();
         float precioFinal= costo + calcularGananciaObtenida() +(costo*(RECARGO_POR_ENVIO/100));
         return precioFinal;
     }
