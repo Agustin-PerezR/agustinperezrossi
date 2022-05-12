@@ -16,3 +16,9 @@ plt1.title('delitos')
 plt1.xlabel('mes')
 plt1.ylabel('tipo')
 plt1.show()
+# grafico 2
+plt2.plot(x_values,y_values);
+plt2.title('Delitos')
+plt2.xlabel('mes')
+plt2.ylabel('tipo')
+plt2.show()
